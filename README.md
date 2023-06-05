@@ -18,7 +18,7 @@ The provided code serves as a prototype for object detection in autonomous vehic
 
 6. Visualization: The detected objects are visualized by drawing bounding boxes on the input image. The labels and confidence scores are displayed alongside the bounding boxes.
 
-The prototype showcases the integration of various Intel optimization libraries and frameworks to perform object detection tasks efficiently and harness the power of hardware acceleration. It serves as a starting point for developing more advanced and customized object detection solutions for autonomous vehicles.
+The prototype showcases the integration of various Intel optimization libraries and frameworks to perform object detection tasks efficiently and harness the power of hardware acceleration.
 
 # Tech Stack of the prototype
 The tech stack of the prototype includes the following components and libraries:
