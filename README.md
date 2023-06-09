@@ -1,9 +1,8 @@
-# Team name: Violax
-# Challenge name: Object Detection for Autonomous Vehicles using intel oneAPI toolkit
-# Leader Name: Samiksha Sarnaik
-Email: samikshasarnaik2001@gmail.com
+#### Team name: Violax
+#### Challenge name: Object Detection for Autonomous Vehicles using intel oneAPI toolkit
+####Email: samikshasarnaik2001@gmail.com
 
-# Brief of the prototype
+## Brief of the prototype
 The provided code serves as a prototype for object detection in autonomous vehicles using Intel oneDNN, oneDAL, oneMKL, oneTBB, oneVPL, oneCCL, the AI Analytics Toolkit, and SYCL. The prototype demonstrates the following steps:
 
 1. Model Loading: The code loads a pre-trained object detection model by specifying the paths to the model weights, model configuration, and class labels.
@@ -20,7 +19,7 @@ The provided code serves as a prototype for object detection in autonomous vehic
 
 The prototype showcases the integration of various Intel optimization libraries and frameworks to perform object detection tasks efficiently and harness the power of hardware acceleration.
 
-# Tech Stack of the prototype
+## Tech Stack of the prototype
 The tech stack of the prototype includes the following components and libraries:
 
 1. Intel oneDNN (Deep Neural Network Library): A performance-optimized library for deep learning inference. It provides efficient implementations of neural network primitives and supports various hardware accelerators.
@@ -41,7 +40,7 @@ The tech stack of the prototype includes the following components and libraries:
 
 The combination of these components and libraries provides a powerful and optimized tech stack for object detection in autonomous vehicles. It leverages Intel's hardware optimizations, parallel computing capabilities, and deep learning libraries to achieve efficient and high-performance object detection.
 
-# Step by step code execution instruction
+## Step by step code execution instruction
 1. Install the required dependencies:
    - Intel oneDNN: Follow the installation instructions from the Intel oneDNN documentation.
    - Intel oneDAL: Install the daal4py package using `pip install daal4py`.
@@ -62,7 +61,7 @@ The code will load the model, preprocess the input image, create the computation
 
 5. The image with bounding boxes will be displayed. Press any key to close the image window.
 
-# What We learnt?
+## What We learnt?
 We learnt these things while preparing the prototype:
 1. Loading and preprocessing an input image for object detection.
 2. Utilizing Intel oneDNN and oneDAL to create a computation graph for object detection.
