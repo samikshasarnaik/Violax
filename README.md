@@ -1,6 +1,6 @@
 #### Team name: Violax
 #### Challenge name: Object Detection for Autonomous Vehicles using intel oneAPI toolkit
-####Email: samikshasarnaik2001@gmail.com
+#### Email: samikshasarnaik2001@gmail.com
 
 ## Brief of the prototype
 The provided code serves as a prototype for object detection in autonomous vehicles using Intel oneDNN, oneDAL, oneMKL, oneTBB, oneVPL, oneCCL, the AI Analytics Toolkit, and SYCL. The prototype demonstrates the following steps:
