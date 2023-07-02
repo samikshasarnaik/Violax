@@ -21,42 +21,18 @@ The prototype showcases the integration of various Intel optimization libraries 
 
 ## Tech Stack of the prototype
 The tech stack of the prototype includes the following components and libraries:
-
-1. Intel oneDNN (Deep Neural Network Library): A performance-optimized library for deep learning inference. It provides efficient implementations of neural network primitives and supports various hardware accelerators.
-
-2. Intel oneDAL (Data Analytics Library): A library for high-performance data analytics and machine learning. It includes components for data preprocessing, model building, and inference.
-
-3. Intel oneMKL (Math Kernel Library): A highly optimized mathematical library that provides functions for linear algebra, FFT (Fast Fourier Transform), and other mathematical operations.
-
-4. Intel oneTBB (Threading Building Blocks): A library for parallel programming that enables efficient task-based parallelism. It provides constructs for concurrent execution and synchronization.
-
-5. Intel oneVPL (Video Processing Library): A library for video processing and encoding. It offers APIs for video decoding, encoding, and related operations.
-
-6. Intel oneCCL (Collective Communications Library): A library for efficient collective communication and distributed computing. It enables parallel execution across multiple compute nodes.
-
-7. AI Analytics Toolkit: A suite of Intel tools and libraries for AI and analytics workloads. It includes components such as oneDNN, oneDAL, and other optimized libraries.
-
-8. SYCL (Single-source Heterogeneous Programming): A programming model that allows developers to write code that can be executed on various hardware accelerators, including CPUs, GPUs, and FPGAs.
-
+1. Intel oneDAL (Data Analytics Library): A library for high-performance data analytics and machine learning. It includes components for data preprocessing, model building, and inference.
+2. Intel oneVPL (Video Processing Library): A library for video processing and encoding. It offers APIs for video decoding, encoding, and related operations.
 The combination of these components and libraries provides a powerful and optimized tech stack for object detection in autonomous vehicles. It leverages Intel's hardware optimizations, parallel computing capabilities, and deep learning libraries to achieve efficient and high-performance object detection.
 
 ## Step by step code execution instruction
 1. Install the required dependencies:
-   - Intel oneDNN: Follow the installation instructions from the Intel oneDNN documentation.
    - Intel oneDAL: Install the daal4py package using `pip install daal4py`.
-   - Intel oneMKL: Install the mkl package using `pip install mkl`.
-   - Intel oneTBB: Install the tbb package using `pip install tbb`.
    - Intel oneVPL: Follow the installation instructions from the Intel oneVPL documentation.
-   - Intel oneCCL: Follow the installation instructions from the Intel oneCCL documentation.
-   - AI Analytics Toolkit: Follow the installation instructions from the AI Analytics Toolkit documentation.
-   - SYCL: Install the daal4py.oneapi package using `pip install daal4py.oneapi`.
+   
 
-2. Replace `"path/to/model.weights"` with the actual path to your model's weights file, `"path/to/model.config"` with the path to the model's configuration file, and `"path/to/model.classes"` with the path to the file containing class labels.
+2. Run train1.py
 
-3. Replace `"path/to/image.jpg"` with the actual path to the input image.
-
-4. Run the code using a Python interpreter.
-   violax.py
 The code will load the model, preprocess the input image, create the computation graph using oneDNN, execute the graph using oneDAL and SYCL, process the output detections, and draw bounding boxes on the image.
 
 5. The image with bounding boxes will be displayed. Press any key to close the image window.
